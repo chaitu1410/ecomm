@@ -6,6 +6,8 @@ from rest_framework.decorators import api_view
 from .models import *
 from .serializers import *
 
+# import time
+
 
 @api_view(["GET"])
 def getRoutes(request):
